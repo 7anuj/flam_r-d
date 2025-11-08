@@ -67,3 +67,37 @@ To fit a parametric curve to observed data using different global optimization s
 - **Basin Hopping** was significantly faster but more sensitive to local minima.
 
 ---
+## 📚 References & Citations
+
+### 🔹 Differential Evolution (DE)
+Storn, R. & Price, K. (1997).  
+**"Differential Evolution – A Simple and Efficient Heuristic for Global Optimization over Continuous Spaces."**  
+*Journal of Global Optimization, 11(4), 341–359.*  
+[https://doi.org/10.1023/A:1008202821328](https://doi.org/10.1023/A:1008202821328)
+
+---
+
+### 🔹 Dual Annealing (DA)
+Tsallis, C. & Stariolo, D. A. (1996).  
+**"Generalized Simulated Annealing."**  
+*Physica A: Statistical Mechanics and its Applications, 233(1–2), 395–406.*  
+(Implemented in SciPy as `scipy.optimize.dual_annealing`.)  
+[https://doi.org/10.1016/S0378-4371(96)00271-3](https://doi.org/10.1016/S0378-4371(96)00271-3)
+
+---
+
+### 🔹 Basin Hopping (BH)
+Wales, D. J. & Doye, J. P. K. (1997).  
+**"Global Optimization by Basin-Hopping and the Lowest Energy Structures of Lennard-Jones Clusters Containing up to 110 Atoms."**  
+*The Journal of Physical Chemistry A, 101(28), 5111–5116.*  
+[https://doi.org/10.1021/jp970984n](https://doi.org/10.1021/jp970984n)
+
+---
+
+### 🔹 Comparative Study
+Baioletti, M., Santucci, V., & Tomassini, M. (2024).  
+**"A Performance Analysis of Basin Hopping Compared to Established Metaheuristics for Global Optimization."**  
+*arXiv preprint arXiv:2403.05877.*  
+[https://arxiv.org/abs/2403.05877](https://arxiv.org/abs/2403.05877)
+
+---
