@@ -9,7 +9,7 @@ The objective was to find optimal parameters that minimize the **L₁ distance**
 ## 🎯 Final Parametric Equation
 
 \[
-\left( t*\cos(29.999980) - e^{0.03000023\left|t\right|}\cdot\sin(0.3t)\sin(29.999980) + 55.000005, 42 + t*\sin(29.999980) + e^{0.03000023\left|t\right|}\cdot\sin(0.3t)\cos(29.999980) \right)-
+\left( t*\cos(29.999980) - e^{0.03000023\left|t\right|}\cdot\sin(0.3t)\sin(29.999980) + 55.000005, 42 + t*\sin(29.999980) + e^{0.03000023\left|t\right|}\cdot\sin(0.3t)\cos(29.999980) \right)
 \]
 
 > **Optimizer Used:** Differential Evolution (DE)  
